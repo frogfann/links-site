@@ -1,5 +1,5 @@
-# links-site
+# My "link in bio" site
 
- practical project to learn basic web dev tools and skills
+ Personal/practical project for me to learn web dev basics
 
- I used ['yt-link-in-bio' by slydragonn](https://github.com/slydragonn/yt-link-in-bio?tab=readme-ov-file) code for a starting point.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**I used <a href="https://github.com/slydragonn/yt-link-in-bio?tab=readme-ov-file" target="_blank">'yt-link-in-bio' by slydragonn</a>'s code for a base.*

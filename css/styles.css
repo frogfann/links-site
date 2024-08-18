@@ -1,3 +1,7 @@
+:root {
+  
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -14,7 +18,7 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: #78D1B6;
   background-image: url(../images/background-art.jpg);
   background-repeat: no-repeat;
   background-position: center top;
@@ -40,15 +44,7 @@ footer {
   margin-bottom: 20px;
 
 }
-/*
-.profile-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid var(--title-color);
-  object-fit: cover; 
-}
-*/
+
 .profile-name {
   margin-top: 200px;
   font-size: 50px;
@@ -81,7 +77,6 @@ footer {
 
 .fa-solid fa-location-dot{
   color: #ffffffe8;
-
 }
 
 .social-links {
@@ -92,7 +87,6 @@ footer {
   padding: 10px;
   width: 160px;
   margin: 0 auto;
-
 }
 
 .social-icon {
@@ -105,36 +99,12 @@ footer {
 .social-link:focus {
   color: #e7de58;
   opacity: 1
-
 }
+
 .about {
   display: flex;
   margin-top: 10px;
 }
-/*
-.about__title {
-  color: whitesmoke;
-  font-weight: 600;
-}
-.about__list {
-  display: flex;
-  margin-left: 10px;
-  list-style: none;
-  font-weight: 100;
-}
-
-.about__list > li {
-  margin-right: 10px;
-}
-
-.about__list > li > a {
-  color: var(--text-color);
-  transition: all .3s;
-}
-
-.about__list > li:hover > a {
-  color: rgb(240, 102, 97);
-} */
 
 .list-links {
   margin-top: 5px;
@@ -145,27 +115,25 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
   text-align: center;
   width: 280px;
   height: 45px;
   margin-bottom: 15px;
   outline: 2px solid #0f0d1b;
-  /*border: 2px solid #1a141fce;*/
-  border-radius: 50px;
   box-shadow: 5px 6px #0f0d1b;
+  border-radius: 50px;
   cursor: pointer;
   transition: all .3s;
 }
 
-.list-links > li:nth-child(1) {
-  background-color: #a97df0ea;
-}
 .list-links > li:nth-child(2) {
-  background-color: #78D1B6ea;
+  background-color: #6193f0f6;
 }
 .list-links > li:nth-child(3) {
-  background-color: #618ef0ea;
+  background-color: #78D1B6f6;
+}
+.list-links > li:nth-child(4) {
+  background-color: #7961e4f6;
 }
 
 .list-links > li > a {
@@ -173,7 +141,7 @@ footer {
   color: whitesmoke;
   font-weight: 700;
   font-size: 20px;
-  text-shadow: #000000;
+  text-shadow: 0px 0px 1px #0000007e;
 }
 
 .list-links > li:hover {
@@ -182,14 +150,12 @@ footer {
 
 a {
 text-decoration: none;
-
 }
 
 svg {
-fill: rgb(255, 255, 255);
+fill: #ffffff;
 height: 20px;
 margin: auto
-
 }
 
 @media screen and (max-width: 300px) {
