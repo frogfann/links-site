@@ -1,6 +1,5 @@
-:root {
-  
-}
+/*:root {
+}*/
 
 * {
   padding: 0;
@@ -59,7 +58,6 @@ footer {
   font-weight: 700;
   font-style: normal;
 }
-
 
 .summary {
   color: #ffffffe8;
